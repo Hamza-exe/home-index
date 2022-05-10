@@ -1,0 +1,99 @@
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation (feature-a)
+$ cd home
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (feature-a)
+$ git commit -m "front page animation"
+[feature-a 11847f8] front page animation
+ 1 file changed, 20 insertions(+)       
+ create mode 100644 intro.txt
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation (feature-a)
+$ cd home
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (feature-a)
+$ git checkout main
+Switched to branch 'main'
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git push https://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@github.com/hamza-exe/home-page.git
+fatal: The current branch main has no upstream branch.        
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://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@github.com/hamza-exe/home-page.git main
+
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git add .
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   assets/style/base.css
+        new file:   assets/style/style.css
+        new file:   index.html
+
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git commit -m "files created"
+[main 5228265] files created
+ 3 files changed, 1033 insertions(+)
+ create mode 100644 home/assets/style/base.css
+ create mode 100644 home/assets/style/style.css
+ create mode 100644 home/index.html
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git push https://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@github.com/hamza-exe/home-page.git
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://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@github.com/hamza-exe/home-page.git main
+
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$     git push --set-upstream https://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@github.com/hamza-exe/home-page.git main
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (13/13), 5.70 KiB | 2.85 MiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Hamza-exe/Home-page.git
+To https://github.com/hamza-exe/home-page.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'https://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@github.com/hamza-exe/home-page.git'.
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../Git/project/list.txt
+        modified:   assets/style/style.css
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        assets/img/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git add .
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git commit -m "images"
+[main cb18e12] images
+ 3 files changed, 10 insertions(+), 4 deletions(-)
+ create mode 100644 home/assets/img/logo.png
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git add .
+
+helafifi@EC-NSSCH-182181 MINGW64 /d/2022 MITT/Sem 2/Tools and automation/home (main)
+$ git commit -m "about-me"
+[main 6d43011] about-me
+ 1 file changed, 59 deletions(-)

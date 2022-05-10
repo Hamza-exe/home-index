@@ -603,6 +603,12 @@ td, th {
       margin-top: 10px;
   }
 
+  i:hover {
+    background-color:hsl(189, 68%, 75%);
+    padding: 8px;
+    border-radius: 50%;
+  }
+
   h4{
     margin-bottom: 20px;
   }
