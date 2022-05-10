@@ -182,8 +182,8 @@ a, i {
 }
  
 .social .nav ul li a.youtube:hover {
-    border: 1px solid #ff0000;
-    background-color: #ff0000;
+    border: 1px solid  #8330e1;
+    background-color: #8330e1;
 }
  
 .social .nav ul li a.twitter:hover i,
@@ -603,7 +603,7 @@ td, th {
       margin-top: 10px;
   }
 
-  i:hover {
+  #socials i:hover {
     background-color:hsl(189, 68%, 75%);
     padding: 8px;
     border-radius: 50%;
